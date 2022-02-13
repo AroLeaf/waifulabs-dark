@@ -1,0 +1,176 @@
+/**************
+    GENERAL
+**************/
+
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+}
+
+a {
+  color: #eee;
+  transition: .3s;
+  cursor: pointer;
+}
+a:hover {
+  color: #fff;
+}
+
+body {
+  background-color: #222;
+  color: #eee;
+}
+
+
+.logo-image {
+  filter: drop-shadow(1px 1px 1px #000);
+}
+
+img.menu-icon {
+  filter: invert(100%);
+}
+
+.navigation-item,
+.navigation-item.w--current {
+  color: #fff;
+  transition: .3s;
+}
+.navigation-item:hover,
+.navigation-item.w--current:hover {
+  color: #eee;
+}
+#mobile-menu .navigation-item:hover {
+  background-color: #40a9ff1f;
+}
+
+
+.app-container button {
+  background-color: #333;
+  transition: .2s;
+}
+
+
+.button {
+  background-color: #a92127;
+  transition: .3s;
+}
+.button:hover {
+  background-color: #d42931;
+}
+
+input {
+  background-color: #333;
+  border: none;
+  outline: none;
+}
+input:hover,
+input:focus {
+  background-color: #444;
+}
+
+
+.footer-wrap a {
+  opacity: 1;
+  color: #eee;
+  transition: .3s;
+}
+.footer-wrap a:hover {
+  color: #fff;
+}
+
+
+/***************
+    TAILWIND
+***************/
+
+.text-gray-900,
+.text-gray-700 {
+  color: #fff;
+}
+.text-gray-600,
+.text-gray-500 {
+  color: #eee;
+}
+
+.hover\:bg-indigo-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 48 163 / var(--tw-bg-opacity));
+  transition: .3s;
+}
+
+
+/*****************
+    BLOG PAGES
+*****************/
+
+.section:first-of-type {
+  margin: 0px;
+}
+
+.heading-jumbo-small.dark {
+  color: #fff;
+}
+
+.paragraph-light {
+  opacity: 1;
+}
+
+.paragraph-bigger {
+  color: #fff;
+}
+
+.prose {
+  color: #eee;
+}
+.prose h1,
+.prose h2,
+.prose h3,
+.prose strong {
+  color: #fff;
+}
+.prose a,
+.prose blockquote {
+  color: #eee;
+}
+
+.bg-blue-100 a {
+  color: #000;
+}
+
+/****************
+    GENERATOR
+****************/
+
+.loading-callout {
+  background-color: transparent;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+  background-color: #fff;
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+  color: #ccc;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+  color: #fff;
+}
+
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+  color: #ccc;
+}
+
+/*****************
+    COLLECTION
+*****************/
+
+.collection-card > div > * {
+  background-color: #333;
+}
+
+.collection-card > div > a:hover {
+  background-color: #444;
+}
