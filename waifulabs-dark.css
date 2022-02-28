@@ -163,6 +163,10 @@ input:focus {
   color: #ccc;
 }
 
+.waifu-grid > div > div > div > div:nth-of-type(3) {
+  display: none;
+}
+
 /*****************
     COLLECTION
 *****************/
