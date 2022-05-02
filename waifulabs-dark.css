@@ -26,7 +26,11 @@ body {
 }
 
 img.menu-icon {
-  filter: invert(100%);
+  filter: invert(90%);
+}
+img.menu-icon,
+img.menu-icon ~ svg {
+  cursor: pointer;
 }
 
 .navigation-item,
@@ -75,6 +79,13 @@ input:focus {
 }
 .footer-wrap a:hover {
   color: #fff;
+}
+
+.button.start-button {
+  border: none;
+}
+.button.start-button:hover {
+  background-color: #ff0fac
 }
 
 
@@ -136,6 +147,7 @@ input:focus {
   color: #000;
 }
 
+
 /****************
     GENERATOR
 ****************/
@@ -166,6 +178,7 @@ input:focus {
 .waifu-grid > div > div > div > div:nth-of-type(3) {
   display: none;
 }
+
 
 /*****************
     COLLECTION
